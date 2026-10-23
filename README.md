@@ -2,8 +2,7 @@
 
 Predicting defective wafers from 590 sensor readings in a semiconductor manufacturing process (Kaggle competition, evaluated by ROC-AUC).
 
-**Result:** mean cross-validated ROC-AUC of **~0.75** (0.760 pooled out-of-fold), up from a 0.69 baseline. Kaggle leaderboard: **6th place**.
-<!-- TODO: add a leaderboard screenshot, e.g. reports/figures/leaderboard.png -->
+**Result:** **6th place on the public leaderboard (ROC-AUC 0.747)**. Mean cross-validated ROC-AUC of ~0.75 matched the leaderboard score, so the model generalises rather than overfits.<!-- TODO: add a leaderboard screenshot, e.g. reports/figures/leaderboard.png -->
 
 ![ROC curve](reports/figures/roc_curve.png)
 
