@@ -1,0 +1,19 @@
+# Data (competition data is not redistributed)
+*.csv
+data/*
+!data/README.md
+
+# Generated outputs
+outputs/
+reports/figures/roc_curve_quick.png
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
